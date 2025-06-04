@@ -22,6 +22,8 @@ dependencies: # The list of packages to include in your environment
     - python # You can specify versions like python=3.12
     - ipykernel
     - jupyter
+    - conda-forge::cartopy
+    - conda-forge::geopandas
     #- pip # Install pip in your environment
     #- pip: # Include pip dependencies last
         #- pdfplumber
