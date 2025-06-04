@@ -1,0 +1,27 @@
+name: ccamaps-env # This will become the name of your environment
+
+# To see your environments:
+# > conda info -e
+
+# To remove an environment:
+# > conda remove -n ccamaps-env --all
+
+# To create an environment:
+# > conda env create -f environment.yml
+
+# To recreate environment, run:
+# > conda env update --file environment.yml --prune
+
+# To activate an environment:
+# > conda activate ccamaps-env
+
+# To create a kernel for Jupyter:
+# > python -m ipykernel install --user --name ccamaps-env --display-name "Conda (ccamaps-env)"
+
+dependencies: # The list of packages to include in your environment
+    - python # You can specify versions like python=3.12
+    - ipykernel
+    - jupyter
+    #- pip # Install pip in your environment
+    #- pip: # Include pip dependencies last
+        #- pdfplumber
